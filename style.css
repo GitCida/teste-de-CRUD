@@ -1,0 +1,127 @@
+body {
+    background-color: #f5f0e6;
+    font-family: 'Georgia', serif;
+    color: #4b3621;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 3px double #a67c52;
+    padding-bottom: 10px;
+}
+
+form {
+    background-color: #fff8e7;
+    padding: 30px;
+    border: 2px solid #c8b07e;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(75, 54, 33, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #a67c52;
+    border-radius: 8px;
+    background-color: #fffdf7;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #a67c52;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #8b5e3c;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #a67c52;
+    margin: 20px 0;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #f5f0e1; /* Fundo suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #4e3a1a; /* Cor de borda suave */
+    font-size: 1.1em;
+    font-family: 'Georgia', serif;
+}
+
+th {
+    background-color: #6a4e23; /* Cor de fundo dos cabeçalhos */
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase; /* Tornando o cabeçalho mais formal */
+}
+
+td {
+    background-color: #faf4d8; /* Fundo suave para as células */
+}
+
+tr:nth-child(even) {
+    background-color: #f0e0b8; /* Cor de fundo alternada */
+}
+
+tr:hover {
+    background-color: #e4d3a8; /* Cor ao passar o mouse */
+}
+
+tr {
+    transition: background-color 0.3s ease-in-out;
+}
+
+td a {
+    color: #6a4e23;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #4b2d1d;
+    text-decoration: underline;
+}
+
+/* Borda e padding no corpo da tabela */
+table {
+    border: 2px solid #d9d9d9;
+    border-radius: 12px;
+}
+
